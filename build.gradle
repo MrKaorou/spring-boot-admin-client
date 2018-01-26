@@ -1,5 +1,4 @@
 group 'com.smart'
-version '1.0'
 
 buildscript {
     repositories {
@@ -12,10 +11,10 @@ buildscript {
     }
 }
 apply plugin: 'java'
+apply plugin: 'war'
 apply plugin: 'spring-boot'
 jar {
     baseName = 'gradle'
-    version = '1.0'
 }
 
 repositories {
