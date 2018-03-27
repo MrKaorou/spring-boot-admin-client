@@ -5,6 +5,6 @@ spring:
         prefer-ip: true # 解决windows下运行时无法识别主机名的问题
       url: http://47.100.40.62:8090 # 向服务端注册的地址
 management:
-  port: 8091
+  port: 8092
   security:
     enabled: false # spring-boot 1.5.2之后严格执行安全策略，所以需要配置这个为false
