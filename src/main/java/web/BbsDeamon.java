@@ -20,7 +20,7 @@ public class BbsDeamon extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     public String index() {
-        return "你好！我是8001";
+        return "你好！我是8002";
     }
 
     public static void main(String[] args) {
