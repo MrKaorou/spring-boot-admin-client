@@ -3,7 +3,7 @@ spring:
     admin:
       client:
         prefer-ip: true # 解决windows下运行时无法识别主机名的问题
-      url: http://localhost:8090 # 向服务端注册的地址
+      url: http://47.100.40.62:8090 # 向服务端注册的地址
 management:
   port: 8091
   security:
